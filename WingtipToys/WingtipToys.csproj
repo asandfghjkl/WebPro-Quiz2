@@ -178,6 +178,39 @@
       <DependentUpon>wingtiptoys.mdf</DependentUpon>
     </Content>
     <Content Include="App_Readme\Elmah.txt" />
+    <Content Include="Assets\css\style.css" />
+    <Content Include="Assets\img\about-bg.jpg" />
+    <Content Include="Assets\img\about.jpg" />
+    <Content Include="Assets\img\apple-touch-icon.png" />
+    <Content Include="Assets\img\event-birthday.jpg" />
+    <Content Include="Assets\img\event-custom.jpg" />
+    <Content Include="Assets\img\event-private.jpg" />
+    <Content Include="Assets\img\events-bg.jpg" />
+    <Content Include="Assets\img\favicon.png" />
+    <Content Include="Assets\img\hero-bg.jpg" />
+    <Content Include="Assets\img\menu\bread-barrel.jpg" />
+    <Content Include="Assets\img\menu\caesar.jpg" />
+    <Content Include="Assets\img\menu\cake.jpg" />
+    <Content Include="Assets\img\menu\greek-salad.jpg" />
+    <Content Include="Assets\img\menu\lobster-bisque.jpg" />
+    <Content Include="Assets\img\menu\lobster-roll.jpg" />
+    <Content Include="Assets\img\menu\mozzarella.jpg" />
+    <Content Include="Assets\img\menu\spinach-salad.jpg" />
+    <Content Include="Assets\img\menu\tuscan-grilled.jpg" />
+    <Content Include="Assets\img\specials-1.png" />
+    <Content Include="Assets\img\specials-2.png" />
+    <Content Include="Assets\img\specials-3.png" />
+    <Content Include="Assets\img\specials-4.png" />
+    <Content Include="Assets\img\specials-5.png" />
+    <Content Include="Assets\img\testimonials\testimonials-1.jpg" />
+    <Content Include="Assets\img\testimonials\testimonials-2.jpg" />
+    <Content Include="Assets\img\testimonials\testimonials-3.jpg" />
+    <Content Include="Assets\img\testimonials\testimonials-4.jpg" />
+    <Content Include="Assets\img\testimonials\testimonials-5.jpg" />
+    <Content Include="Assets\js\main.js" />
+    <Content Include="Assets\vendor\animate.css\animate.compat.css" />
+    <Content Include="Assets\vendor\animate.css\animate.css" />
+    <Content Include="Assets\vendor\animate.css\animate.min.css" />
     <Content Include="Catalog\Images\boatbig.png" />
     <Content Include="Catalog\Images\boatpaper.png" />
     <Content Include="Catalog\Images\boatsail.png" />
@@ -229,7 +262,6 @@
     <Content Include="Content\Site.css" />
     <Content Include="ErrorPage.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Images\logo.jpg" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -412,7 +444,6 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -537,7 +568,9 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
