@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WingtipToys {
-    
-    
-    public partial class ProductList {
-        
+namespace WingtipToys
+{
+
+
+    public partial class ProductList
+    {
+
         /// <summary>
         /// productList control.
         /// </summary>
