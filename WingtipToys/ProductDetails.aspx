@@ -3,6 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <asp:FormView ID="productDetail" runat="server" ItemType="WingtipToys.Models.Product" SelectMethod ="GetProduct" RenderOuterTable="false">
         <ItemTemplate>
+            <link href="assets/css/style.css" rel="stylesheet">
             <div>
                 <h1><%#:Item.ProductName %></h1>
             </div>
